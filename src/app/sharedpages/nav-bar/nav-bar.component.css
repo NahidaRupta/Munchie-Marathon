@@ -7,3 +7,9 @@
     color: var(--primary-color);
     text-decoration: underline;
 }
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the navbar is on top of other content */
+  }

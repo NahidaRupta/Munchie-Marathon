@@ -10,45 +10,87 @@ export class OrderDetailsService {
   foodDetails = [
     {
       id:1,
-      foodName:"Paneer Grilled Sandwich",
+      foodName:"Beef Sandwich",
       foodDetails:"Pan-fried masala paneer.",
-      foodPrice:200,
-      foodImg:""
+      foodPrice:150,
+      foodImg:"../../../assets/img/beefSan.jpg"
     },
     {
       id:2,
-      foodName:"Veggie Supreme",
-      foodDetails:"Onion| Green Capsicum|Mushroom |black olives , sweet corn , Red Paprika topped with Cheese",
-      foodPrice:369,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/sgbobtbxlojbtdnr2m5k"
+      foodName:"Ramen",
+      foodDetails:"Chicken,Egg,Srimp,Vegetable",
+      foodPrice:200,
+      foodImg:"../../../assets/img/ramen.jpg"
     },
     {
       id:3,
-      foodName:"Paneer Burger",
-      foodDetails:"panner",
-      foodPrice:149,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/xbeqlsck3p0kei53to7k"
+      foodName:"Chicken Burger",
+      foodDetails:"Double patty",
+      foodPrice:200,
+      foodImg:"../../../assets/img/burger.jpg"
     },
     {
       id:4,
-      foodName:"Veg Masala Roll In Naan",
-      foodDetails:"A homely mix of mashed potato and veggies, seasoned with Indian spices. A filling sure to take you back to mom's kitchen.",
-      foodPrice:140,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/l2ng6gtge30sqaafqng7"
+      foodName:"Chicken Pasta",
+      foodDetails:"A homely mix of chicken seasoned with Indian spices.",
+      foodPrice:150,
+      foodImg:"../../../assets/img/pasta.jpg"
     },
     {
       id:5,
-      foodName:"Indulgence Brownie",
-      foodDetails:"(Eggless) Indulge in richly decadent chocolate brownie crafted with love & topped with bitter-sweet chocolate that provides ultra-rich chocolate experience.",
-      foodPrice:105,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/iqlmbg1hlyc0dspdyzzv"
+      foodName:"Chicken Fry",
+      foodDetails:"Chicken leg coverd with red souce",
+      foodPrice:120,
+      foodImg:"../../../assets/img/chickenFry.jpg"
     },
     {
       id:6,
-      foodName:"Oreo Cheesecake Ice Cream",
-      foodDetails:"Oreo ice cream",
-      foodPrice:219,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+      foodName:"Chicken Chowmin",
+      foodDetails:"Chicken,Cheese",
+      foodPrice:150,
+      foodImg:"../../../assets/img/noolds.jpg"
+    },
+    {
+      id:7,
+      foodName:"Chicken Nuggets",
+      foodDetails:"Chicken,Cheese,Sauce",
+      foodPrice:250,
+      foodImg:"../../../assets/img/nuggets.jpg"
+    },
+    {
+      id:8,
+      foodName:"Chicken Pizza",
+      foodDetails:"Chicken,Cheese,Black oliv,Capcicum,Onion,Tomato.",
+      foodPrice:550,
+      foodImg:"../../../assets/img/pizza.jpg"
+    },
+    {
+      id:9,
+      foodName:"Veggie Sandwich",
+      foodDetails:"Onion,Green Capsicum,sweet corn , Red Paprika.",
+      foodPrice:100,
+      foodImg:"../../../assets/img/vegSan.jpg"
+    },
+    {
+      id:10,
+      foodName:"Rice Bowl",
+      foodDetails:"Chicken,Rice,Vegetable",
+      foodPrice:100,
+      foodImg:"../../../assets/img/rice.jpg"
+    },
+    {
+      id:11,
+      foodName:"Chicken Noodles Soup",
+      foodDetails:"Chicken,Noodles,Vegetable",
+      foodPrice:250,
+      foodImg:"../../../assets/img/soup.jpg"
+    },
+    {
+      id:12,
+      foodName:"Sea Supreme",
+      foodDetails:"A mix of sea king and veggies.",
+      foodPrice:250,
+      foodImg:"../../../assets/img/picture2.jpg"
     }
   ]
 }
